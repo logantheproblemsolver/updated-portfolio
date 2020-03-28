@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { Route } from 'react-router-dom';
 import AboutMe from './AboutMe/AboutMe';
 import Projects from './Projects/Projects';
