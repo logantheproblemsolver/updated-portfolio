@@ -6,6 +6,7 @@
     grid-gap: 2em;  
     justify-content: center;
     align-items: center;  
+    grid-template-columns: 100%;
   }
 
   .projectLinks {
