@@ -1,0 +1,21 @@
+#contact {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 5em;
+  margin-bottom: 7em;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+#contact a:hover {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.logo {
+  height: .8em;
+  width: 1em;
+  margin-right: .5em;
+}

@@ -2,23 +2,24 @@ import React, {Component} from 'react';
 import { Route, Link } from 'react-router-dom';
 import ThinkfulProjects from './ThinkfulProjects/ThinkfulProjects'
 import PersonalProjects from './PersonalProjects/PersonalProjects';
+import './projects.css';
 
 class Projects extends Component {
   render() {
 
     return (
-      <div> 
+      <div className="projectsPage"> 
         <Route path="/thinkfulprojects" Component={ThinkfulProjects} />
         <Route path="/personalprojects" Component={PersonalProjects} />
         <Link to="/thinkfulprojects">
-          <div> 
+          <section id="thinkfulProjectsLink" className="projectLinks"> 
             Thinkful Projects
-          </div>
+          </section>
         </Link>
         <Link to="/personalprojects">
-          <div>
+          <section id="personalProjectsLink" className="projectLinks">
             Personal Projects
-          </div>
+          </section>
         </Link>
 
       </div>

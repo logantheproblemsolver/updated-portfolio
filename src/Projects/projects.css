@@ -1,0 +1,29 @@
+@media screen and (min-width: 325px) {
+  .projectsPage {
+    margin-top: 5em;
+    margin-bottom: 10em;
+    display: grid;
+    grid-gap: 2em;  
+    justify-content: center;
+    align-items: center;  
+  }
+
+  .projectLinks {
+    width: 20em;
+    height: 20em;
+    box-shadow: .5em .5em 1em black;
+    margin-top: 5em;
+
+  }
+
+
+}
+
+@media screen and (min-width: 650px) {
+  .projectsPage {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;    
+  }
+}
+
+
