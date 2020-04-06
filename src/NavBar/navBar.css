@@ -64,13 +64,8 @@
       color: rgba(95, 95, 95, 0);
   }
 
-  nav a:hover {
-      font-size: 1.1em;
-  }
 
-  .title:hover {
-      font-size: 2em;
-  }
+
 
 }
 

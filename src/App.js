@@ -6,6 +6,7 @@ import ContactMe from './ContactMe/ContactMe';
 import Footer from './Footer/Footer';
 import NavBar from './NavBar/NavBar';
 import './App.css';
+import ThinkfulProjects from './Projects/ThinkfulProjects/ThinkfulProjects';
 
 class App extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class App extends React.Component {
             <Route exact path="/" component={AboutMe} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/contactme" component={ContactMe} />
+            <Route exact path="/thinkfulprojects" component={ThinkfulProjects} />
         </Switch>
         <Footer />
       </div>
