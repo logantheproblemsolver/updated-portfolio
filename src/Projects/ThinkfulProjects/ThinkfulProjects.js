@@ -3,6 +3,7 @@ import GitHubLogo from '../../ContactMe/Github-Logo1.png';
 import ComputerLogo from './computerLogo.png';
 import SpaceExploration from './SpaceExploration.PNG';
 import CommunityArtist from './CommunityArtist.PNG'
+import JobsRUs from './JobsRUs.PNG'
 import './thinkfulProjects.css';
 
 class ThinkfulProjects extends Component {
@@ -53,7 +54,7 @@ class ThinkfulProjects extends Component {
         </section>
         <section className="projectSection">
         <h2 className="projectTitle">Jobs R Us</h2>
-            {/* <img src={CommunityArtist} className="projectImage" alt="Community Artists Landing Page"/> */}
+            <img src={JobsRUs} className="projectImage" alt="Community Artists Landing Page"/>
             <p className="projectDescription">
             This application is a job board for anyone to use. Most job boards these days are either too expensive or have a niche; this one is designed so that it's simple, cheap, and can be for any type of job!   
             </p>

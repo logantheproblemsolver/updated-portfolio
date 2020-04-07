@@ -7,6 +7,7 @@ import Footer from './Footer/Footer';
 import NavBar from './NavBar/NavBar';
 import './App.css';
 import ThinkfulProjects from './Projects/ThinkfulProjects/ThinkfulProjects';
+import PersonalProjects from './Projects/PersonalProjects/PersonalProjects';
 
 class App extends React.Component {
   render() {
@@ -18,6 +19,7 @@ class App extends React.Component {
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/contactme" component={ContactMe} />
             <Route exact path="/thinkfulprojects" component={ThinkfulProjects} />
+            <Route exact path="/personalprojects" component={PersonalProjects} />
         </Switch>
         <Footer />
       </div>
