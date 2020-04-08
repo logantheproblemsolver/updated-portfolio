@@ -4,12 +4,13 @@
     font-size: 1.1em;
     margin-top: 5em;
     margin-bottom: 8em;
+    text-align: center;
   }
 
   .profile {
     max-width: 30em;
-    height: 25em;
-    margin-left: 10em;
+    height: 20em;
+    margin-top: 2em;
     box-shadow: .5em .5em 2em rgb(0, 195, 255);
   }
 
@@ -21,12 +22,20 @@
   .aboutSection {
     width: 45%;
     display: inline-block;
-    margin-left: 5em;
-    line-height: 2em;  ;
+    margin: auto auto;
+    line-height: 2em;  
   }
 
 }
+
+@media screen and (min-width: 750px) {
+  .aboutSection {
+    margin-left: 5em;
+  }
   
-@media screen and (min-wdith: 750px) {
-  
+  .profile {
+    margin-left: 8em;
+    margin-top: unset;
+  }
 }
+  
