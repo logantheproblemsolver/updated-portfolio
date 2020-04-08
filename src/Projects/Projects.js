@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Route, Link } from 'react-router-dom';
-import ThinkfulProjects from './ThinkfulProjects/ThinkfulProjects'
+import ThinkfulProjects from './ThinkfulProjects/ThinkfulProjects';
 import PersonalProjects from './PersonalProjects/PersonalProjects';
 import './projects.css';
 
@@ -21,8 +21,8 @@ class Projects extends Component {
           </section>
         </Link>
       </section>
-    )
-  }
-}
+    );
+  };
+};
 
 export default Projects;

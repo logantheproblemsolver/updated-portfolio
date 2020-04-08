@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import GitHubLogo from '../../ContactMe/Github-Logo1.png';
 import ComputerLogo from './computerLogo.png';
 import SpaceExploration from './SpaceExploration.PNG';
-import CommunityArtist from './CommunityArtist.PNG'
-import JobsRUs from './JobsRUs.PNG'
+import CommunityArtist from './CommunityArtist.PNG';
+import JobsRUs from './JobsRUs.PNG';
 import './thinkfulProjects.css';
 
 class ThinkfulProjects extends Component {
@@ -83,8 +83,8 @@ class ThinkfulProjects extends Component {
             </p> */}
         </section>
       </div>
-    )
-  }
-}
+    );
+  };
+};
 
 export default ThinkfulProjects;

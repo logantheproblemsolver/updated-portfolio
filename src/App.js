@@ -5,9 +5,9 @@ import Projects from './Projects/Projects';
 import ContactMe from './ContactMe/ContactMe';
 import Footer from './Footer/Footer';
 import NavBar from './NavBar/NavBar';
-import './App.css';
 import ThinkfulProjects from './Projects/ThinkfulProjects/ThinkfulProjects';
 import PersonalProjects from './Projects/PersonalProjects/PersonalProjects';
+import './App.css';
 
 class App extends React.Component {
   render() {
@@ -23,8 +23,8 @@ class App extends React.Component {
         </Switch>
         <Footer />
       </div>
-    )
-  }
-}
+    );
+  };
+};
 
 export default App;

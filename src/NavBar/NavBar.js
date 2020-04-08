@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import{Link} from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu';
-import './navBar.css'
+import './navBar.css';
 
 
 class NavBar extends Component {
@@ -47,9 +47,8 @@ class NavBar extends Component {
 
 
             </nav>     
-        )
-
-    }
-}
+        );
+    };
+};
 
 export default NavBar;

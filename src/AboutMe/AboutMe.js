@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import './aboutMe.css'
-import ProfilePhoto from './ProfilePhoto.jpg'
+import './aboutMe.css';
+import ProfilePhoto from './ProfilePhoto.jpg';
 
 class AboutMe extends Component {
   render() {
@@ -16,8 +16,8 @@ class AboutMe extends Component {
         </section>
         <img src={ProfilePhoto} className="profile" alt="Logan Ellis"/>
       </div>
-    )
-  }
-}
+    );
+  };
+};
 
 export default AboutMe;

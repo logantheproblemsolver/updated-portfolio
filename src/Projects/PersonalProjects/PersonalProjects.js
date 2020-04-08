@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './personalProjects.css'
+import './personalProjects.css';
 
 class PersonalProjects extends Component {
   render() {
@@ -7,8 +7,8 @@ class PersonalProjects extends Component {
       <div className="personalProjects">
         <p>Personal projects will soon be here!</p>
       </div>
-    )
-  }
-}
+    );
+  };
+};
 
 export default PersonalProjects;

@@ -21,8 +21,8 @@ class ContactMe extends Component {
               <a href="mailto:mrloganellis.com">Email me!</a> 
             </p>
         </section>
-    )
-  }
-}
+    );
+  };
+};
 
 export default ContactMe;
