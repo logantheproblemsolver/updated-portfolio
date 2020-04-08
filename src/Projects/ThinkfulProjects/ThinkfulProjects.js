@@ -75,12 +75,6 @@ class ThinkfulProjects extends Component {
               <a href="https://github.com/logantheproblemsolver/Jobs-R-Us-API" target="_blank" rel="noopener noreferrer">View the back-end!</a>
               </p>
             </div>
-            {/* <p className="projectCode">
-              <img src={ GitHubLogo } className="githubLogo" alt="GitHub Logo" />
-              <a href="https://github.com/logantheproblemsolver/Jobs-R-Us-App" target="_blank" rel="noopener noreferrer">View the front-end!</a>
-              <img src={ GitHubLogo } className="githubLogo" alt="GitHub Logo" />
-              <a href="https://github.com/logantheproblemsolver/Jobs-R-Us-API" target="_blank" rel="noopener noreferrer">View the back-end!</a>
-            </p> */}
         </section>
       </div>
     );
