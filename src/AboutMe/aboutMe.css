@@ -1,4 +1,4 @@
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 320px) {
   .aboutMe {
     line-height: 2em;
     font-size: 1.1em;
@@ -8,8 +8,7 @@
   }
 
   .profile {
-    max-width: 30em;
-    height: 20em;
+    max-width: 15em;
     margin-top: 2em;
     box-shadow: .5em .5em 2em rgb(0, 195, 255);
   }
@@ -20,9 +19,9 @@
   }
 
   .aboutSection {
-    width: 45%;
+    text-align: left;
     display: inline-block;
-    margin: auto auto;
+    margin: 1em 1em;
     line-height: 2em;  
   }
 
@@ -34,8 +33,17 @@
   }
   
   .profile {
-    margin-left: 8em;
+    max-width: 30em;
+    height: 20em;
+    margin-left: 4em;
     margin-top: unset;
   }
 }
   
+
+@media screen and (min-width: 1273px) {
+  .aboutSection {
+    width: 45%;
+
+  }
+}

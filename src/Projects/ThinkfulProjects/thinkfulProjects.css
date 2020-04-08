@@ -11,6 +11,7 @@
   margin-top: 5em;
   margin-bottom: 5em;
   box-shadow: 10px 10px 10px gray;
+  background-color: rgb(204, 201, 201);
 }
 
 .projectImage {
@@ -19,14 +20,29 @@
 
 .projectTitle {
   font-size: 3em;
+  background-color: rgb(204, 201, 201);
 }
 
 .computerLogo {
   width: 1.2em;
   margin-right: 1em;
+  background-color: rgb(204, 201, 201);
 }
 
 .githubLogo {
   width: 1.2em;
   margin-right: 1em;
+  background-color: rgb(204, 201, 201);
+}
+
+.projectSection p, a {
+  background-color: rgb(204, 201, 201);
+}
+
+.fullstackCode {
+  background-color: rgb(204, 201, 201);
+}
+
+.projectSection a:visited {
+  color: black;
 }
