@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
-import './aboutMe.css';
 import ProfilePhoto from './ProfilePhoto.jpg';
+import LogansResume from './LoganEllisResume.pdf';
+import './aboutMe.css';
+
 
 class AboutMe extends Component {
   render() {
@@ -15,6 +17,7 @@ class AboutMe extends Component {
           <p className="paragraph">I think that Thinkful has not only helped me learn how to code, but also gave me the tools to learn how to broaden my horizons and learn code that isn't on their curriculum. I am a really outgoing person, who fits well into any environment I am put in. I always aim to achieve and strive. I am looking for a job that will constantly challenge me, and allows me to learn as much as I can while also working with other great developers.</p>
         </section>
         <img src={ProfilePhoto} className="profile" alt="Logan Ellis"/>
+        <a href={ LogansResume } className="resume" download>Logan's Resume</a>
       </div>
     );
   };
