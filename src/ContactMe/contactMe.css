@@ -19,3 +19,13 @@
   width: 1em;
   margin-right: .5em;
 }
+
+.contactLink {
+  background-color: unset;
+  color: black;
+}
+
+.contactLink:visited {
+  color: black;
+}
+  
