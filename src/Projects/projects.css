@@ -12,6 +12,7 @@ a {
   margin-top: 10em;
   margin-bottom: 10em;
 }
+
 .project-links {
   display: flex;
   justify-content: center;
@@ -20,7 +21,18 @@ a {
   box-shadow: 5px 10px 18px #888888;
   height: 15em;
   width: 15em;
+  border-radius: 5em;
+  background-color: rgb(233, 223, 223);
 }
+
+.projects-page a {
+  background-color: unset;
+}
+
+.projects-page a:visited {
+  color: black;
+}
+
 @media(min-width: 48em) {
   .projects-page {
     display: grid;
